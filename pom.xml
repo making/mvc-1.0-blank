@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>am.ik.archetype</groupId>
+    <artifactId>mvc-1.0-blank</artifactId>
+    <version>1.0.0-m01-SNAPSHOT</version>
+    <packaging>war</packaging>
+
+    <name>MVC 1.0 Blank Project (from https://github.com/making/mvc-1.0-blank)</name>
+
+    <licenses><!-- DELETE THIS LINE -->
+        <license><!-- DELETE THIS LINE -->
+            <name>Apache License, Version 2.0</name><!-- DELETE THIS LINE -->
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url><!-- DELETE THIS LINE -->
+            <distribution>repo</distribution><!-- DELETE THIS LINE -->
+        </license><!-- DELETE THIS LINE -->
+    </licenses><!-- DELETE THIS LINE -->
+    <scm><!-- DELETE THIS LINE -->
+        <url>https://github.com/making/mvc-1.0-blank</url><!-- DELETE THIS LINE -->
+        <connection>scm:git:git@github.com:making/mvc-1.0-blank.git</connection><!-- DELETE THIS LINE -->
+        <developerConnection>scm:git:git@github.com:making/mvc-1.0-blank.git</developerConnection><!-- DELETE THIS LINE -->
+    </scm><!-- DELETE THIS LINE -->
+    <url>https://github.com/making/mvc-1.0-blank</url><!-- DELETE THIS LINE -->
+    <description>MVC 1.0 Blank Project</description><!-- DELETE THIS LINE -->
+    <developers><!-- DELETE THIS LINE -->
+        <developer><!-- DELETE THIS LINE -->
+            <id>making</id><!-- DELETE THIS LINE -->
+            <name>Toshiaki Maki</name><!-- DELETE THIS LINE -->
+            <email>makingx@gmail.com</email><!-- DELETE THIS LINE -->
+            <url>https://twitter.com/making</url><!-- DELETE THIS LINE -->
+        </developer><!-- DELETE THIS LINE -->
+    </developers><!-- DELETE THIS LINE -->
+    <distributionManagement><!-- DELETE THIS LINE -->
+        <snapshotRepository><!-- DELETE THIS LINE -->
+            <id>ossrh</id><!-- DELETE THIS LINE -->
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url><!-- DELETE THIS LINE -->
+        </snapshotRepository><!-- DELETE THIS LINE -->
+        <repository><!-- DELETE THIS LINE -->
+            <id>ossrh</id><!-- DELETE THIS LINE -->
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url><!-- DELETE THIS LINE -->
+        </repository><!-- DELETE THIS LINE -->
+    </distributionManagement><!-- DELETE THIS LINE -->
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-web-api</artifactId>
+            <version>7.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.ozark</groupId>
+            <artifactId>ozark</artifactId>
+            <version>1.0.0-m01</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.3</version>
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
