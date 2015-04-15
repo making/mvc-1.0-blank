@@ -44,7 +44,11 @@ Access [http://localhost:8080/mvc-demo/app/hello](http://localhost:8080/mvc-demo
 ![NB03](images/hello.png)
 
 
+This project uses **Facelets** as a view technology. Currently Facelets view requires `web.xml`.
 
+You can remove `web.xml` if you use other view (JSP, Thymeleaf, Handlebars and so on).
+
+See also [this article](http://www.coppermine.jp/docs/programming/2015/04/ozark-facelet.html).
 
 ## License
 
