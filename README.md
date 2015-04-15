@@ -31,7 +31,19 @@ $ mvn archetype:generate -B\
  -DartifactId=mvc-demo\
  -Dversion=1.0.0-SNAPSHOT
 ```
-Import to IDE and deploy to GlassFish.
+Open the project with NetBeans and run the application
+
+![NB01](images/run-app.png)
+
+Choose GlassFish 4.1
+
+![NB02](images/select-server.png)
+
+Access [http://localhost:8080/app/hello](http://localhost:8080/app/hello)
+
+![NB03](images/hello.png)
+
+
 
 
 ## License
