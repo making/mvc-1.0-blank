@@ -39,7 +39,7 @@ Choose GlassFish 4.1
 
 ![NB02](images/select-server.png)
 
-Access [http://localhost:8080/app/hello](http://localhost:8080/app/hello)
+Access [http://localhost:8080/mvc-demo/app/hello](http://localhost:8080/mvc-demo/app/hello) (Context root is your artifactId).
 
 ![NB03](images/hello.png)
 
