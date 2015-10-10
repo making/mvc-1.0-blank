@@ -2,6 +2,8 @@
 
 Maven archetype to create a maven project for MVC 1.0 (JSR-371)
 
+[![Build Status](https://travis-ci.org/making/mvc-1.0-blank.svg)](https://travis-ci.org/making/mvc-1.0-blank)
+
 ## How to use
 
 with Bash
