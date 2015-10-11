@@ -11,14 +11,14 @@ with Bash
     mvn archetype:generate\
      -DarchetypeGroupId=am.ik.archetype\
      -DarchetypeArtifactId=mvc-1.0-blank-archetype\
-     -DarchetypeVersion=1.0.0-m01
+     -DarchetypeVersion=1.0.0-m02
 
 with CommandPrompt (Windows)
 
     mvn archetype:generate^
      -DarchetypeGroupId=am.ik.archetype^
      -DarchetypeArtifactId=mvc-1.0-blank-archetype^
-     -DarchetypeVersion=1.0.0-m01
+     -DarchetypeVersion=1.0.0-m02
 
 ### Example
 
@@ -28,11 +28,16 @@ with CommandPrompt (Windows)
 $ mvn archetype:generate -B\
  -DarchetypeGroupId=am.ik.archetype\
  -DarchetypeArtifactId=mvc-1.0-blank-archetype\
- -DarchetypeVersion=1.0.0-m01\
+ -DarchetypeVersion=1.0.0-m02\
  -DgroupId=com.example\
  -DartifactId=mvc-demo\
  -Dversion=1.0.0-SNAPSHOT
 ```
+
+#### Import into NetBeans
+
+**Following procedures are for version 1.0.0-m01**
+
 Open the project with NetBeans and run the application
 
 ![NB01](images/run-app.png)
